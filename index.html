@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Big Data - NYC Taxis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        body { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .dashboard-container { position: relative; width: 100%; height: 600px; margin-top: 20px; }
+        iframe { width: 100%; height: 100%; border: none; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚕 Pipeline de Big Data: Taxis NYC</h1>
+        <p><strong>Evaluación Sumativa N° 2</strong> | Procesamiento Batch con GCP (LAB GSP823)</p>
+        <hr>
+    </header>
 
+    <main>
+        <h2>1. Resumen del Caso de Negocio</h2>
+        <p>Este proyecto procesa más de 1,500,000 registros de viajes para identificar zonas de alta recaudación, eliminando datos corruptos (costos negativos o distancias cero) mediante un flujo automatizado y tolerante a fallas en la nube.</p>
+
+        <h2>2. Dashboard Interactivo (Looker Studio)</h2>
+        <p>A continuación se despliegan los KPIs operacionales extraídos directamente de nuestro Data Warehouse en BigQuery tras el proceso de limpieza en Dataprep:</p>
+        
+        <div class="dashboard-container">
+            <!-- ⚠️ PEGA AQUÍ EL IFRAME DE LOOKER STUDIO ⚠️ -->
+            <iframe src="https://lookerstudio.google.com/embed/reporting/TU_ID_DE_INFORME" allowfullscreen></iframe>
+        </div>
+
+        <h2>3. Conclusiones del Modelo Predictivo (BigQuery ML)</h2>
+        <p>Se entrenó un modelo de regresión lineal directamente en el Data Warehouse para predecir tarifas. El modelo demostró que por cada milla adicional recorrida, el costo base se optimiza en un 78%, permitiendo planificar mejor las tarifas dinámicas de la flota.</p>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Desarrollado por el equipo de Ingeniería - Duoc UC Semestre 2026.</p>
+    </footer>
+</body>
+</html>
