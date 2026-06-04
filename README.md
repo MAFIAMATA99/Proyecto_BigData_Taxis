@@ -52,7 +52,7 @@ Los datos curados y transformados por Dataprep se almacenaron nuevamente en una 
 
 ## 📁 Documentos Entregables
 
-* 📄 [Informe Técnico Completo (Word)](docs/Informe_Tecnico_Taxis_NYC_Final.docx)
+* 📄 [Informe Técnico Completo (Word)](Informe_Tecnico_Taxis_NYC_Final.docx)
 * 📊 [Presentación Ejecutiva (PPTX)](docs/Presentacion_Taxis_NYC.pptx)
 
 ---
