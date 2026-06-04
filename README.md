@@ -19,4 +19,4 @@ El flujo de datos se diseñó de manera desacoplada para procesar **1.5 millones
 * `/sql`: Contiene los scripts de creación de tablas y entrenamiento del modelo predictivo.
 * `/transformaciones`: Detalle de la receta lógica utilizada en Dataprep para la limpieza de datos.
 * `/docs`: Código fuente del sitio web publicado a través de GitHub Pages.
-pichula para el mayron
+
