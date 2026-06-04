@@ -56,4 +56,4 @@ Los datos curados y transformados por Dataprep se almacenaron nuevamente en una 
 * 📊 [Presentación Ejecutiva (PPTX)](docs/Presentacion_Taxis_NYC.pptx)
 
 ---
-**Desarrollado por:** [Tu Nombre / Tu Equipo] - Duoc UC
+**Desarrollado por:** [Maiquel Puma / Daslav Rivera] - Duoc UC
